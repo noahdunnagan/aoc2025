@@ -4,6 +4,7 @@
 
 pub mod prelude {
     // Re-export commonly used crates
+    pub use glam;
     pub use itertools::Itertools;
     pub use nom;
     pub use num;
