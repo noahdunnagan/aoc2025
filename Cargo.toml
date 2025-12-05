@@ -1,0 +1,31 @@
+[workspace]
+resolver = "2"
+members = [
+    "day03","common", "xtask", "day02"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["noah"]
+
+[workspace.dependencies]
+# Parsing
+nom = "7"
+
+# Iterators & collections
+itertools = "0.13"
+
+# Math & algorithms  
+num = "0.4"
+
+# Data structures
+hashbrown = "0.15"
+
+# CLI for xtask
+clap = { version = "4", features = ["derive"] }
+
+# Common utilities
+anyhow = "1"
+
+# Our shared crate
+common = { path = "common" }

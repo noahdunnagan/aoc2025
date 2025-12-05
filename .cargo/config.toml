@@ -1,0 +1,10 @@
+[alias]
+# Run xtask commands easily
+xt = "run --package xtask --"
+
+# Shortcuts for common xtask commands
+gen = "run --package xtask -- new"
+download = "run --package xtask -- download"
+
+# Run a specific day
+d = "run --package"

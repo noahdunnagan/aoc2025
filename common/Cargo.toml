@@ -1,0 +1,11 @@
+[package]
+name = "common"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+nom.workspace = true
+itertools.workspace = true
+num.workspace = true
+hashbrown.workspace = true
+anyhow.workspace = true
